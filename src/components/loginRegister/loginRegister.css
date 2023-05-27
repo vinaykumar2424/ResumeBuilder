@@ -1,0 +1,165 @@
+.registerPage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+    background:linear-gradient(to right,#F1E37C, #D7DEE6);
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.registerPage-grid1{
+    box-shadow: 0 0 45px 10px gray;
+    background: linear-gradient(to right,#F1E37C, #D7DEE6);
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 10vh;
+    
+}
+.fillImg{
+    position: relative;
+    height: 10vw;
+    left: 5vh;
+    top: calc(5px + 10vh);
+    filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.7));
+}
+form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    display: flex;
+    padding: 10px 15px;
+    margin: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    font-size: 17px;
+}
+.Signup-btn{
+    background-color: #0B2D36;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-weight: bold;
+    border: none;
+    width: 245px;
+    border-radius: 5px;
+    margin-top:5px;
+}
+.Signup-btn:hover{
+    background:linear-gradient(to left,#F1E37C, #D7DEE6);
+    transition: 2s;
+    color: #0B2D36;
+}
+.resume-logo{
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    box-shadow: 0 0 45px 10px gray;
+    border-radius: 10px;
+    
+}
+.resume-img{
+    margin-left: 2.5vw;
+    margin-top: 2.5vw;
+    width: 25vw;
+    height: 25vw;
+    filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.7));
+}
+@media only screen and (min-width: 900px) {
+    .registerPage-grid1{
+        margin-top: 13vh;
+        margin-left: 5vw;
+        max-width: 30vmin;
+    }
+    .fillImg{
+        top: calc(5px + 13vh);
+    }
+    .Signup-btn{
+        margin-left: 15px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .registerPage-grid1{
+        margin-top: 13vh;
+        margin-left: 5vw;
+    }
+    .fillImg{
+        top: calc(5px + 13vh);
+    }
+}
+@media only screen and (max-width: 900px) {
+    .registerPage-grid1{
+        margin-left: 5vw;
+        /* max-width: 30vmin; */
+    }
+    .fillImg{
+        top: calc(5px + 13vh);
+    }
+    .input{
+        margin: 5px 0px;
+        font-size: 15px;
+    }
+    .Signup-btn{
+        margin-top: 5px;
+    }
+} 
+@media only screen and (max-width: 650px) {
+    .registerPage{
+        display: block;
+        /* grid-template-columns: 1fr; */
+        height: 100vh;
+        justify-items: center;
+        align-items: center;
+    }
+    .registerPage-grid1{
+        position: relative;
+        top: 2vh;
+        width: 60vw;
+    }
+    .fillImg{
+        top: calc(5px + 15vh);
+    }
+    .input{
+        margin: 5px 0px;
+        font-size: 15px;
+    }
+    .Signup-btn{
+        margin-top: 5px;
+    }
+    .registerPage-grid2{
+        position: relative;
+        top: -3vh;
+        display: flex;
+        justify-content: center;
+    }
+    .resume-logo{
+        position: absolute;
+        width: 80vw;
+        height: 40vh;
+        box-shadow: 0 0 45px 10px gray;
+        border-radius: 10px;
+        
+    }
+    .resume-img{
+        margin-left: 2.5vw;
+        margin-top: 2.5vw;
+        width: 75vw;
+        height: 35vh;
+        filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.7));
+    }
+} 

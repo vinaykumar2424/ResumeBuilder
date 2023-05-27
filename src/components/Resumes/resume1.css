@@ -1,0 +1,150 @@
+.outerResume1Div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(190, 190, 190); */
+    background-color: #0B2D36;
+}
+.resume1{
+    /* width: 40vw; */
+    /* max-width: 160mm; */
+    height: 100vh;
+    /* min-height: 210mm; */
+    background-color: rgb(255, 255, 255);
+}
+.topMargin{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(143, 143, 143);
+    position: relative;
+    top: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+.personInfoBox{
+    position: relative;
+    top: 10px;
+}
+.personName{
+    font-size: 2vmin;
+    letter-spacing: 1.5vmin;
+    color: white;
+}
+.personProfile{
+    padding: 1.2vmin 0;
+    font-size: 1.2vmin;
+    letter-spacing: 0.8vmin;
+    color: white;
+}
+.personImage{
+    position: relative;
+    top: 3vh;
+    right: 0vw;
+    width: 10vmin;
+    height: 10vmin;
+    border-radius: 50%;
+    object-fit:cover;
+}
+.bottomMargin{
+    padding: 5vh 3.5vh 1vh 3.5vh;
+    height: 50vh;
+    /* overflow: hidden; */
+}
+.experienceDiv,.profileText, .mobileNumber,.EmailId,.homeAddress,.skill{
+    letter-spacing: 1px;
+}
+.profileText,.experienceDiv{
+    line-height: 20px;
+}
+.grid1, .grid2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    
+}
+.span1{
+    display: inline-block;
+    position: relative;
+    top: 4vmin;
+    text-align: left;
+    padding: 0 16px;
+    font-size: 1.2vmin;
+    color: rgb(0, 0, 0);
+    max-width: 80%;
+}
+.subdiv{
+    display: flex;
+    align-items: center;
+}
+.icons-imgs{
+    margin-right: 15px;
+    width: 2vmin;
+    height: 2vmin;
+
+}
+
+.span2{
+    display: inline-block;
+    position: relative;
+    top: 4vmin;
+    left: 2vmin;
+    padding: 0 10px;
+    font-size: 1.2vmin;
+    color: rgb(0, 0, 0);
+    max-width: 80%;
+    text-align: left;
+    border-left: 1px solid gray;
+}
+.span3{
+    display: inline-block;
+    position: relative;
+    top: 8vmin;
+    text-align: left;
+    padding: 0 16px;
+    font-size: 1.2vmin;
+    color: rgb(0, 0, 0);
+    max-width: 80%;
+}
+.skill{
+    padding: 0px 0;
+}
+.headings{
+    letter-spacing: 1.5vmin;
+    font-size: 1.3vmin;
+    font-weight: 700;
+}
+.span4{
+    display: inline-block;
+    position: relative;
+    top:8vmin;
+    left: 2vmin;
+    padding: 0 10px;
+    font-size: 1.2vmin;
+    color: rgb(0, 0, 0);
+    max-width: 80%;
+    text-align: left;
+    border-left: 1px solid gray;
+}
+.downloadBtn{
+    position: absolute;
+    background-color: #0B2D36;
+    color: white;
+    cursor: pointer;
+    padding: 2vmin;
+    font-weight: 500;
+    font-size: 3vmin;
+    border: none;
+    width: 25vmin;
+    border-radius: 5px;
+    margin: 2vmin 0;
+    bottom: 0vh;
+}
+.downloadBtn:hover{
+    background:linear-gradient(to left,#F1E37C, #D7DEE6);
+    transition: 2s;
+    color: #0B2D36;
+}
+.personImage {
+    width: 10vmin;
+    height: 10vmin;
+  }
